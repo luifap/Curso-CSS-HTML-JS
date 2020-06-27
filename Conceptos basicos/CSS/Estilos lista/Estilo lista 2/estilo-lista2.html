@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title>Página web con menú</title>
+    <style>
+      ul {
+        list-style-type: none;
+        text-align: center;
+        /*Ancho para que quepa la "Presentación"*/
+        width: 120px;
+        padding: 0;
+      }
+
+      li {
+        background-color: #00f;
+        color: #fff;
+        /*El borde blanco separa los elementos*/
+        border: 2px solid #fff;
+      }
+
+      li a {
+        color: #fff;
+        text-decoration: none;
+        /*Necesario para que el enlace ocupe todo el ancho del elemento de la lista*/
+        display: block;
+        width: 100%;
+      }
+       /*Efecto cuando se situa el raton encima de un elemento de la lista
+       o cuando recibe el foco del teclado*/
+       li a:hover, li a:focus {
+         outline: 2px solid #f00;
+       }
+    </style>
+  </head>
+  <body>
+    <h1>Universidad de Alicante</h1>
+    <ul>
+      <li><a href="">Presentación</a></li>
+      <li><a href="">Estudios</a></li>
+      <li><a href="">Alumnos</a></li>
+      <li><a href="">Deportes</a></li>
+      <li><a href="">Servicios</a></li>
+    </ul>
+  </body>
+</html>

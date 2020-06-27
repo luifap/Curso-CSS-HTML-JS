@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8" />
+  <title>selectores2</title>
+  <style>
+    /*Letra*/
+    #line1 {color: #008080;}
+    #line2 {color: #ff0000 ;}
+    #line3 {color: #0000ff;}
+    #line4 {color: #FF8000;}
+    #line5 {color: #9A2EFE;}
+    #line6 {color: #81F781;}
+    #line7 {color: #FA58D0;}
+    #line8 {color: #088A08;}
+
+    /*Primera columna*/
+    td {
+      background-color: #ff0000;
+    }
+
+    /*Segunda columna*/
+    td + td {
+      background-color:#088A08 ;
+    }
+
+    /*tercera columna*/
+    td + td + td {
+      background-color: #0000ff;
+    }
+  </style>
+  </head>
+  <body>
+    <table border="1">
+      <tr id="line1"><td>teal</td><td>teal</td><td>teal</td></tr>
+      <tr id="line2"><td>red</td><td>red</td><td>red</td></tr>
+      <tr id="line3"><td>blue</td><td>blue</td><td>blue</td></tr>
+      <tr id="line4"><td>orange</td><td>orange</td><td>orange</td></tr>
+      <tr id="line5"><td>purple</td><td>purple</td><td>purple</td></tr>
+      <tr id="line6"><td>olive</td><td>olive</td><td>olive</td></tr>
+      <tr id="line7"><td>fuchsia</td><td>fuchsia</td><td>fuchsia</td></tr>
+      <tr id="line8"><td>green</td><td>green</td><td>green</td></tr>
+    </table>
+  </body>
+</html>

@@ -1,0 +1,38 @@
+div {
+	background: #ccc;
+	padding: 5px;
+}
+
+img {
+	float: right;
+	width: 100%;
+	height: auto;
+}
+
+div#contenedor {
+	width: 400px;
+	background: gray;
+	overflow: auto;
+	/*si se quita el overflow no persive el contenedor*/
+}
+
+div > li {
+	width: 100px;
+	height: 100px;
+	background: red;
+	margin: 5px;
+	float: left; 
+}
+
+.avatar {
+	float: left;
+	width: 30%;
+	border: 1px solid red;
+}
+
+.contenido {
+	float: right;
+	width: 65%;
+	border: 1px solid blue;
+	background: transparent;
+}

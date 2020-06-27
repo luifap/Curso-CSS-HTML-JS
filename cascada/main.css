@@ -1,0 +1,13 @@
+ /*Las cascagas dos en el orden de procedencia del css, hay una jerarquia, los estilos se aplican uno antes que otros, tienen un orden de aplicacion en cascada que es de arriba abajo*/
+/*El orden sería: 1. archivo externo 2. inclución en el head 3.estilos inline(dentro de la misma linea de la etiqueta 4. important)  */
+h1 {
+	color: blue !important;
+	font-size: 50px;
+}
+
+/*Si estas en la linea 550 ejem y escribes la misma etiqueta cambias el atributo 
+toma este si el anetrior no tiene el important*/
+h1 {
+	color: #000;
+}
+

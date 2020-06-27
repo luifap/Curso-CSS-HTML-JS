@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8"/> 
+    <title>Formulario de prueba de HTML5</title>
+  </head>
+  <body>
+    <h1>Formulario HTML5</h1>
+
+    <form action="" method="get">
+
+      <p>
+        <label for="nombre">Nombre:</label> <input type="text" name="name_control"  autofocus required/>
+      </p>
+      <p>
+        <label for="correo">Correo electrónico:</label> <input type="email" name="email_control" required/>
+      </p>
+      <p>
+        <label for="url">URLL:</label> <input type="url" name="url_control" placeholder="Escribe la URL de tu página web personal"/>
+      </p>
+      <p>
+        <label for="fecha">Fecha:</label> <input type="date" name="date_control"/>
+      </p>
+      <p>
+        <label for="tiempo">Tiempo:</label> <input type="time" name="time_control"/>
+      </p>
+      <p>
+        <label for="fecha-hora">Fecha y hora:</label><input type="datetime" name="datetime_control"/>
+      </p>
+      <p>
+        <label for="mes">Mes:</label> <input type="month" name="month_control"/>
+      </p>
+      <p>
+        <label for="semana"></label>Semana:</label> <input type="week" name="week_control"/>
+      </p>
+      <p>
+        <label for="numero">Número (min -10, max  10):</label> <input type="number" name="number_control" min="-10" max="10" value="0" />
+      </p>
+      <p>
+        <label for="telefono">Teléfono</label><input type="tel" name="tel_control" />
+      </p>
+      <p>
+        <label for="termino de busqueda">Término de búsqueda:</label> <input type="search" name="search_control" />
+      </p>
+      <p>
+        <label for="color favorito">Color favorito:</label> <input type="color" name="color_control" />
+      </p>
+      <p>
+        <input type="submit" value="Enviar">
+      </p>
+    </form>
+  </body>
+</html>
